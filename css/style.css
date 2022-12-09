@@ -1,0 +1,29 @@
+/*
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+.test {
+  width: 100rem;
+  height: 60rem;
+  background-color: aqua;
+  border: 5px solid black; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #f2ebe3; }
