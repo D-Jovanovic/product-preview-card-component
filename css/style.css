@@ -14,16 +14,22 @@ html {
   font-size: 62.5%; }
 
 body {
-  box-sizing: border-box; }
-
-.test {
-  width: 100rem;
-  height: 60rem;
-  background-color: aqua;
-  border: 5px solid black; }
+  box-sizing: border-box;
+  background-color: #f2ebe3; }
 
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   line-height: 1.7;
-  color: #f2ebe3; }
+  color: #6c7289; }
+
+.container {
+  display: grid;
+  border: 5px solid red;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 144rem;
+  margin: 10rem auto;
+  height: 100rem; }
+  .container__img {
+    background-image: url(/images/image-product-desktop.jpg);
+    background-size: cover; }

@@ -13,11 +13,5 @@ html {
 
 body {
   box-sizing: border-box;
-}
-
-.test {
-  width: 100rem;
-  height: 60rem;
-  background-color: aqua;
-  border: 5px solid black;
+  background-color: $color-primary-cream;
 }
