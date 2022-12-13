@@ -2,9 +2,9 @@
   display: grid;
   border: 5px solid red;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 144rem;
+  max-width: 100rem; //1440px is to big; change after done with info container
   margin: 10rem auto;
-  height: 100rem; //this need to be auto?
+  height: 80rem; //this need to be auto?
 
   &__img {
     background-image: url(/images/image-product-desktop.jpg);
@@ -34,6 +34,34 @@
       span {
         display: block;
       }
+    }
+
+    .perfume-info {
+      font-size: $font-size-p;
+      font-weight: 500;
+      margin-bottom: $margin-bottom;
+    }
+
+    .price {
+      position: relative;
+      font-family: "Fraunces", sans-serif;
+      color: $color-primary-dark;
+      font-size: 4rem;
+
+      &::after {
+        position: absolute;
+        content: "$149.99";
+        text-decoration: line-through;
+        color: $color-neutral-dark;
+        font-size: 1.5rem;
+        top: 50%;
+        left: 17rem;
+        transform: translate(0, -50%);
+      }
+    }
+
+    .btn {
+      display: block;
     }
   }
 }
