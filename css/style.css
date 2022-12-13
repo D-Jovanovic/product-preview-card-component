@@ -26,14 +26,18 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 100rem;
+  max-width: 70rem;
   margin: 10rem auto; }
   .container__img {
     background-image: url(/images/image-product-desktop.jpg);
-    background-size: cover; }
+    background-size: cover;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem; }
   .container__info {
     background-color: #fff;
-    padding: 5rem; }
+    padding: 5rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1.6rem; }
     .container__info .subheading {
       display: inline-block;
       text-transform: uppercase;
@@ -87,3 +91,27 @@ body {
     .container__info .btn__icon {
       width: 2rem;
       margin-right: 1rem; }
+
+.attribution {
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 12px;
+  text-align: center;
+  max-width: 100%; }
+  .attribution a {
+    color: #3e52a3;
+    text-decoration: none;
+    font-weight: 600; }
+
+/*
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+*/

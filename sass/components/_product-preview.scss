@@ -2,18 +2,22 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   // border-radius: 100px;
-  max-width: 100rem; //1440px is to big; change after done with info container
+  max-width: 70rem; //1440px is to big; change after done with info container
   margin: 10rem auto;
   // height: 80rem; this need to be auto?
 
   &__img {
     background-image: url(/images/image-product-desktop.jpg);
     background-size: cover;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
   }
 
   &__info {
     background-color: #fff;
     padding: 5rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1.6rem;
 
     .subheading {
       display: inline-block; //to display margin-bottom
@@ -90,3 +94,30 @@
     }
   }
 }
+
+.attribution {
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 12px;
+  text-align: center;
+  max-width: 100%;
+
+  a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    font-weight: 600;
+  }
+}
+
+/*
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+*/
