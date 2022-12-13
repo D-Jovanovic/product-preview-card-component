@@ -33,3 +33,21 @@ body {
   .container__img {
     background-image: url(/images/image-product-desktop.jpg);
     background-size: cover; }
+  .container__info {
+    background-color: #fff;
+    padding: 5rem; }
+    .container__info .subheading {
+      display: inline-block;
+      text-transform: uppercase;
+      letter-spacing: 0.6rem;
+      font-weight: 600;
+      font-size: 1.4rem;
+      margin-bottom: 1.8rem; }
+    .container__info .heading__primary {
+      font-size: 3.6rem;
+      color: #1c232b;
+      font-family: "Fraunces", sans-serif;
+      line-height: 4rem;
+      margin-bottom: 1.8rem; }
+      .container__info .heading__primary span {
+        display: block; }

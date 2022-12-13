@@ -12,5 +12,28 @@
   }
 
   &__info {
+    background-color: #fff;
+    padding: 5rem;
+
+    .subheading {
+      display: inline-block; //to display margin-bottom
+      text-transform: uppercase;
+      letter-spacing: 0.6rem;
+      font-weight: 600;
+      font-size: 1.4rem;
+      margin-bottom: $margin-bottom;
+    }
+
+    .heading__primary {
+      font-size: 3.6rem;
+      color: $color-neutral-very-dark;
+      font-family: "Fraunces", sans-serif;
+      line-height: 4rem;
+      margin-bottom: $margin-bottom;
+
+      span {
+        display: block;
+      }
+    }
   }
 }
