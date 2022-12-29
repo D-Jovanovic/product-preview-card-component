@@ -4,4 +4,4 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ![Design preview  card component coding challenge](/design/solution.jpg)
 
-- Live Site URL: [Add live site URL here](https://product-preview-jovanovic.netlify.app/)
+- Live Site URL: [LIVE](https://product-preview-jovanovic.netlify.app/)
